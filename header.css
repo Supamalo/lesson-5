@@ -1,0 +1,287 @@
+.header-page {
+	box-shadow      : 0 0 9px #e5e5e5;
+	background-color: #fff;
+	display         : flex;
+	flex-direction  : column;
+	justify-content : center;
+}
+
+.header-top,
+.header-main,
+.header-bottom {
+	display        : flex;
+	justify-content: center;
+}
+
+.header-top .fixbox,
+.header-main .fixbox,
+.header-bottom .fixbox{
+	display        : flex;
+	flex-direction : row;
+	justify-content : space-between;
+}
+
+.header-top {
+	padding: 20px 0;
+}
+
+.header-main .fixbox {
+	padding        : 40px 0;
+}
+
+.header-right-items,
+.header-left-items {
+	display: flex;
+}
+
+.city-list {
+	margin-left: 30px;
+	flex-basis : auto;
+	color      : blue;
+	font-size  : .875rem;
+	border     : none;
+	outline    : none;
+}
+
+.under-header {
+	font-size      : 0.875rem;
+	padding        : 0 40px 20px 40px;
+	align-self     : center;
+	display        : none;
+	flex-direction : row;
+	justify-content: space-between;
+	color          : #91919f;
+}
+
+.under-header-cloud span {
+	align-self: center;
+}
+
+.under-header-date {
+	align-self: center;
+}
+
+.under-header-cloud {
+	padding-left       : 2em;
+	background-image   : url("img/cloud.png");
+	background-repeat  : no-repeat;
+	background-position: left;
+	background-size    : 25px;
+	display            : inline-flex;
+}
+
+.under-header-time {
+	align-self         : center;
+	padding-left       : 2em;
+	background-image   : url('img/icon-time.png');
+	background-size    : 15px;
+	background-repeat  : no-repeat;
+	background-position: left;
+}
+
+.cloud {
+	align-self: center;
+	color     : #91919f;
+}
+
+.cloud span {
+	background-image : url("img/cloud.png");
+	background-repeat: no-repeat;
+	margin-right     : 5px;
+	height           : 21px;
+	width            : 29px;
+	display          : inline-block;
+}
+
+.header-top {
+	background-color: #00122f;
+	color           : white;
+}
+
+.header-top div {
+	display        : flex;
+	flex-direction : row;
+	justify-content: space-between;
+	align-items    : center;
+}
+
+.header-top a {
+	color: white;
+}
+
+.search {
+	margin-left: 50px;
+	position   : relative;
+}
+
+.search button {
+	background-image   : url(img/search.png);
+	background-repeat  : no-repeat;
+	background-position: center;
+	background-color   : inherit;
+	position           : absolute;
+	border             : 0;
+	width              : 20px;
+	height             : 20px;
+	right              : 15px;
+	top                : 12.5px;
+	outline            : none;
+}
+
+.search input {
+	border-radius   : 23px;
+	border          : 0;
+	line-height     : 16px;
+	width           : 255px;
+	padding         : 14px 45px 14px 20px;
+	background-color: #f3f3f3;
+	outline         : none;
+}
+
+.menu a {
+	color          : black;
+	text-decoration: none;
+}
+
+/*Разделительная черта для навигации, исключая последнюю ссылку*/
+
+.menu li:not(:last-child) a::after {
+	content: "/";
+	padding: 12px;
+	color  : #e1e1e5;
+}
+
+ul {
+	list-style  : none;
+	padding-left: 0;
+	margin      : 0;
+}
+
+header li {
+	display       : inline-flex;
+	flex-direction: row;
+}
+
+nav.menu {
+	padding-bottom: 15px;
+}
+
+.burger,
+.mark {
+	display     : none;
+	width       : 20px;
+	height      : 20px;
+	margin-right: 20px;
+	border      : 0;
+	align-self  : center;
+	position    : relative;
+}
+
+.burger span,
+.burger span::after,
+.burger span::before {
+	position  : absolute;
+	top       : 50%;
+	margin-top: -1px;
+	height    : 2px;
+	width     : inherit;
+	background: black;
+}
+
+.mark span,
+.mark span::after,
+.mark span::before {
+	position  : absolute;
+	top       : 50%;
+	margin-top: -1px;
+	height    : 2px;
+	width     : inherit;
+}
+
+.mark span {
+	background: inherit;
+}
+
+.mark span::after,
+.mark span::before {
+	content: '';
+}
+
+.mark span::after {
+	background: black;
+	transform : rotate(45deg);
+}
+
+.mark span::before {
+	background: black;
+	transform : rotate(-45deg);
+}
+
+.hide_this {
+	display: none;
+}
+
+.burger-menu {
+	z-index   : 1;
+	margin-top: 50px;
+	position  : absolute;
+}
+
+.drop_this a {
+	margin         : 0.5em;
+	text-decoration: none;
+	color          : black;
+	font-size      : 1.125rem;
+	width          : 100%;
+}
+
+.drop_this ul {
+	display       : flex;
+	flex-direction: column;
+}
+
+.drop_this li {
+	width        : 100vw;
+	text-indent  : 1.5em;
+	height       : 2.5rem;
+	background   : white;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.drop_this li:last-child {
+	top          : 0.5em;
+	height       : 10rem;
+	border-bottom: none;
+}
+
+.burger span::after,
+.burger span::before {
+	content: '';
+}
+
+.burger span::after {
+	transform: translateY(5px);
+}
+
+.burger span::before {
+	transform: translateY(-5px);
+}
+
+img [src="img/logo.png"] {
+	height: 40px;
+	width : 40px;
+}
+
+.logo {
+	display   : flex;
+	align-self: center;
+	font-size : 0.875rem;
+}
+
+.title {
+	font-weight: bold;
+	flex-basis : 0;
+	margin     : 0 5px;
+	align-self : center;
+	color      : black;
+}

@@ -1,0 +1,33 @@
+* {
+	margin : 0;
+	padding: 0;
+}
+
+html {
+	position  : relative;
+	width     : 100vw;
+	overflow-x: hidden;
+}
+
+body {
+	display         : flex;
+	flex-direction  : column;
+	font-family     : Arial;
+	background-color: #f9f9f9;
+	font-size       : 16px;
+	position        : relative;
+}
+
+.fixbox {
+	max-width: 1000px;
+	min-width : 320px;
+	position  : relative;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size    : 1.25rem;
+	padding      : 20px 0 20px 20px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #e5e5e5;
+}

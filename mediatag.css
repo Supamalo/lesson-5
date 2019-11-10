@@ -1,0 +1,163 @@
+/*
+@media (min-device-width:1000px) {
+    .fixbox {
+        width: 1000px;
+    }
+}
+*/
+@media (max-device-width:999px) {
+
+    .main-content,
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .main-right {
+        width         : 100vw;
+        display       : flex;
+        flex-direction: row;
+        margin        : 20px 0 20px 10px;
+    }
+
+    .main-right img {
+        height: 400px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-device-width:900px) {
+
+    .burger,
+    .mark {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-device-width:640px) {
+    .footer-important-news .text-on-photo {
+        font-size: 0.9em;
+    }
+
+    .text-on-photo a {
+        font-size: 0.9em;
+    }
+
+    .text-on-photo a:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .footer-important-news img {
+        width: 100vw;
+    }
+
+    .header-main .cloud {
+        display: none;
+    }
+
+    .under-header {
+        display: flex;
+    }
+
+    .header-top {
+        font-size: .875rem;
+    }
+
+    .header-main {
+        padding: 10px 20px;
+    }
+
+    .second-news-block {
+        flex-direction: column;
+    }
+
+    .homepage-news img,
+    .homepage-news-item {
+        width: 100vw;
+    }
+
+    .homepage-news-item h3 {
+        line-height: 2em;
+        padding    : 0 8vw;
+    }
+
+    .second-block-props {
+        margin: 20px 8vw 0;
+    }
+
+    .main-center {
+        width : 100vw;
+        margin: 0;
+    }
+
+    .main-left {
+        width: 100vw;
+        order: 1;
+    }
+
+    .main-right {
+        order: 2;
+    }
+
+    aside {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-device-width:560px) {
+    .search input {
+        display: none;
+    }
+}
+
+@media (max-device-width:460px) {
+    .footer-left-col {
+        border-bottom : 1px solid #26354e;
+        padding-bottom: 30px;
+        margin-bottom : 30px;
+    }
+
+    .search button {
+        top: 0;
+    }
+
+    .header-main img {
+        height: 20px;
+        width : 20px;
+    }
+
+    .title {
+        flex-basis: auto;
+    }
+
+    .datetime,
+    .footer-important-comment {
+        display: none;
+    }
+
+    .footer-center-col {
+        justify-content: left;
+    }
+
+    .footer-center-col,
+    .footer-left-col,
+    .footer-right-col {
+        width  : 82vw;
+        padding: 10px 9vw;
+    }
+
+    .text-on-photo a:nth-child(2) {
+        font-size   : 1.375rem;
+        margin-right: 0;
+    }
+}
+
+@media (max-device-width:320px) {
+    .copyright {
+        text-indent  : 20px;
+        padding-right: 70px;
+    }
+}
