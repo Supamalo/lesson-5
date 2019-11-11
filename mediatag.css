@@ -1,5 +1,7 @@
 @media (max-device-width:999px) {
-
+    .fixbox {
+        width: 100vw;
+    }
     .main-content .fixbox,
     .footer .fixbox {
         flex-wrap: wrap;
