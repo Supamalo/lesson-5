@@ -5,7 +5,8 @@
 
     .main-content .fixbox,
     .footer .fixbox {
-        flex-wrap: wrap;
+        justify-content: center;
+        flex-wrap      : wrap;
     }
 
     .main-right {
@@ -61,25 +62,20 @@
     }
 }
 
-@media (min-device-width:461px) and (max-device-width:750px) {
-
-    .main-content .fixbox,
-    .footer .fixbox {
-        justify-content: center;
-    }
-
+@media (max-device-width:750px) {
     .main-left {
         width: 60vw;
     }
-}
 
-@media (min-device-width:641px) and (max-device-width:750px) {
     .main-right {
         justify-content: center;
     }
 }
 
 @media (max-device-width:640px) {
+    .main-left {
+        width: 100%;
+    }
 
     .footer-important-news .text-on-photo,
     .text-on-photo a {
@@ -148,10 +144,6 @@
 @media (max-device-width:460px) {
     .text-on-photo {
         top: 25%;
-    }
-
-    .main-left {
-        width: 100%;
     }
 
     .city-list,
