@@ -13,6 +13,25 @@
 	justify-content: center;
 }
 
+.city-list:after {
+	content     : "▼";
+	padding-left: 8px;
+	font-size   : 0.8em;
+}
+
+.city-list a {
+	color          : blue;
+	text-decoration: none;
+	border-bottom  : 1px solid blue;
+}
+
+.city-list {
+	margin-left: 30px;
+	font-size  : .875rem;
+	align-self : center;
+	outline    : none;
+}
+
 .under-header .fixbox,
 .header-top .fixbox,
 .header-main .fixbox,
@@ -35,15 +54,6 @@
 .header-right-items,
 .header-left-items {
 	display: flex;
-}
-
-.city-list {
-	margin-left: 30px;
-	flex-basis : auto;
-	color      : blue;
-	font-size  : .875rem;
-	border     : none;
-	outline    : none;
 }
 
 .under-header {

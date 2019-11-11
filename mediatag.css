@@ -60,12 +60,13 @@
     .search input {
         display: none;
     }
-}
 
-@media (max-device-width:750px) {
     .main-left {
         width: 60vw;
     }
+}
+
+@media (min-device-width:520px) and (max-device-width:750px) {
 
     .main-right {
         justify-content: center;
