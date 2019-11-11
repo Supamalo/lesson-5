@@ -2,6 +2,7 @@
     .fixbox {
         width: 100%;
     }
+
     .main-content .fixbox,
     .footer .fixbox {
         flex-wrap: wrap;
@@ -184,7 +185,7 @@
     .fixbox {
         min-width: 320px;
     }
-    
+
     body,
     html {
         overflow-x: scroll;
