@@ -3,12 +3,6 @@
 	padding: 0;
 }
 
-html {
-	position  : relative;
-	width     : 100vw;
-	overflow-x: hidden;
-}
-
 body {
 	display         : flex;
 	flex-direction  : column;
@@ -16,11 +10,11 @@ body {
 	background-color: #f9f9f9;
 	font-size       : 16px;
 	position        : relative;
+	overflow-x      : hidden;
 }
 
 .fixbox {
-	max-width: 1000px;
-	min-width : 320px;
+	max-width : 1000px;
 	position  : relative;
 	box-sizing: border-box;
 }

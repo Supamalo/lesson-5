@@ -7,14 +7,14 @@ main {
 }
 
 .main-content,
-.footer{
-	display: flex;
+.footer {
+	display        : flex;
 	justify-content: center;
 }
 
 .main-content .fixbox,
-.footer .fixbox{
-	display: flex;
+.footer .fixbox {
+	display        : flex;
 	flex-direction : row;
 	justify-content: space-between;
 }
@@ -45,14 +45,13 @@ h3 {
 }
 
 .all-news-button {
+	width        : 50%;
 	text-align   : center;
 	border-radius: 23px;
 	border       : 1px solid #448ccb;
 	background   : #fff;
 	padding      : 1em 45px;
-	width        : 100%;
 	margin       : 0 auto 25px;
-	clear        : both;
 }
 
 .all-news-button a {
@@ -100,6 +99,7 @@ h3 {
 
 .main-center {
 	width   : 460px;
+	margin  : 0 20px;
 	position: relative;
 }
 

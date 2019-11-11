@@ -13,12 +13,15 @@
 	justify-content: center;
 }
 
+.under-header .fixbox,
 .header-top .fixbox,
 .header-main .fixbox,
-.header-bottom .fixbox{
+.header-bottom .fixbox {
+	width          : 100%;
+	padding        : 0 20px;
 	display        : flex;
 	flex-direction : row;
-	justify-content : space-between;
+	justify-content: space-between;
 }
 
 .header-top {
@@ -26,7 +29,7 @@
 }
 
 .header-main .fixbox {
-	padding        : 40px 0;
+	padding: 40px 20px;
 }
 
 .header-right-items,
@@ -44,13 +47,10 @@
 }
 
 .under-header {
-	font-size      : 0.875rem;
-	padding        : 0 40px 20px 40px;
-	align-self     : center;
-	display        : none;
-	flex-direction : row;
-	justify-content: space-between;
-	color          : #91919f;
+	font-size     : 0.875rem;
+	color         : #91919f;
+	padding-bottom: 20px;
+	display       : none;
 }
 
 .under-header-cloud span {
@@ -232,7 +232,7 @@ nav.menu {
 	text-decoration: none;
 	color          : black;
 	font-size      : 1.125rem;
-	width          : 100%;
+
 }
 
 .drop_this ul {
@@ -241,7 +241,7 @@ nav.menu {
 }
 
 .drop_this li {
-	width        : 100vw;
+	width        : 100%;
 	text-indent  : 1.5em;
 	height       : 2.5rem;
 	background   : white;
