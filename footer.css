@@ -1,0 +1,126 @@
+.footer-page {
+   display         : flex;
+   flex-direction  : column;
+   justify-content : center;
+   background-color: #00122f;
+   padding-top     : 55px;
+}
+
+.footer-main-content .fixbox,
+.copyright .fixbox {
+   width  : 100%;
+   padding: 0 20px;
+}
+
+.footer-main-content .fixbox {
+   display        : flex;
+   justify-content: space-between;
+   flex-direction : row;
+   flex-wrap      : nowrap;
+}
+
+.footer-main-content,
+.copyright {
+   display        : flex;
+   justify-content: center;
+}
+
+.footer-left-col ul {
+   column-count: 2;
+   display     : inline-block;
+}
+
+.footer-center-col,
+.footer-left-col,
+.footer-right-col {
+   padding-bottom: 30px;
+}
+
+.footer-logo {
+   margin-bottom: 1em;
+}
+
+.footer-logo {
+   display   : flex;
+   align-self: center;
+}
+
+.footer-logo span {
+   font-weight: bold;
+   flex-basis : 0;
+   margin     : 0 5px;
+   font-size  : 0.875rem;
+   align-self : center;
+   color      : white;
+}
+
+.soc a {
+   text-indent        : 100%;
+   overflow           : hidden;
+   width              : 40px;
+   height             : 40px;
+   border             : 1px solid #ccc;
+   border-radius      : 20px;
+   outline            : none;
+   display            : inline-block;
+   background-position: center;
+   background-repeat  : no-repeat;
+}
+
+.soc a:not(:last-child) {
+   margin-right: 20px;
+}
+
+.tel {
+   margin             : 20px 0;
+   padding-left       : 30px;
+   background-position: left;
+   background-repeat  : no-repeat;
+}
+
+.mailto {
+   padding-left       : 30px;
+   background-position: left;
+   background-repeat  : no-repeat;
+}
+
+.copyright {
+   margin    : 0;
+   padding   : 16.5px 0;
+   border-top: 1px solid #26354e;
+   text-align: center;
+   font-size : 0.875rem;
+   color     : #8d9198;
+}
+
+.footer-page a {
+   line-height    : 30px;
+   color          : white;
+   text-decoration: none;
+}
+
+.vk {
+   background-image: url(img/vk.png);
+}
+
+.ig {
+   background-image: url(img/ig.png);
+}
+
+.tt {
+   background-image: url(img/tt.png);
+}
+
+.fb {
+   background-image: url(img/fb.png);
+}
+
+.tel {
+   background-image   : url(img/phone.png);
+   background-position: left;
+}
+
+.mailto {
+   background-image   : url(img/mail.png);
+   background-position: left;
+}
